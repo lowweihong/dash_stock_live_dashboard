@@ -38,5 +38,3 @@ def crawl(url=url, agent=agent):
     neu = 30 - pos - neg
 
     return [[index, times], df, [pos, neg, neu]]
-
-crawl()
