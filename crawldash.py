@@ -36,7 +36,6 @@ def crawl(url=url, agent=agent):
     pos = sum([float(i) > 0 for i in chg])
     neg = sum([float(i) < 0 for i in chg])
     neu = 30 - pos - neg
-    print(df)
 
     return [[index, times], df, [pos, neg, neu]]
 
